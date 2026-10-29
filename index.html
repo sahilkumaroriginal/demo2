@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="theme-color" content="#f5f4ef">
+    <meta name="description" content="Sahil is a creative developer building thoughtful digital experiences, useful interfaces, and expressive websites.">
+    <title>Sahil — Creative Developer & Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css/main.css">
 </head>
 <body>
-    
+    <header class="topbar">
+        <a class="brand" href="#home" aria-label="Sahil, home">S<span>.</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a class="availability" href="mailto:hello@example.com"><span class="availability-dot"></span> Available for select projects</a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span>01</span> Independent creative developer</p>
+                <h1>Making the<br>internet feel a<br>little more <span>human.</span></h1>
+                <div class="hero-foot">
+                    <p>I’m Sahil, a designer and developer turning big ideas into thoughtful digital experiences.</p>
+                    <a class="circle-link" href="#work" aria-label="Scroll to selected work">↓</a>
+                </div>
+            </div>
+            <div class="hero-art" aria-label="A colorful abstract composition representing digital design">
+                <div class="art-orbit orbit-one"></div>
+                <div class="art-orbit orbit-two"></div>
+                <div class="art-sun"></div>
+                <div class="art-card art-card-top"><span>IDEA / 001</span><strong>Good things<br>take shape.</strong><i>↗</i></div>
+                <div class="art-card art-card-bottom"><span>DESIGN × CODE</span><div class="art-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div></div>
+                <span class="art-caption">A curious mind, in a browser.</span>
+            </div>
+            <div class="hero-index"><span>SCROLL TO EXPLORE</span><span>40° 43' 12.0" N</span></div>
+        </section>
+
+        <section class="work section-pad" id="work">
+            <div class="section-top"><p class="eyebrow"><span>02</span> Selected work</p><p class="section-aside">A few recent things, made with care.</p></div>
+            <div class="work-grid">
+                <a class="work-card work-wide" href="mailto:hello@example.com?subject=Project%20inquiry%3A%20Common%20Ground">
+                    <div class="work-image image-ground"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=85" alt="Light-filled creative workspace with communal tables" loading="lazy"><span class="image-index">01 / 03</span><span class="image-open" aria-hidden="true">↗</span></div>
+                    <div class="work-meta"><div><h2>Common Ground</h2><p>A home for ideas and the people behind them.</p></div><span>Brand · Digital · 2025</span></div>
+                </a>
+                <a class="work-card work-offset" href="mailto:hello@example.com?subject=Project%20inquiry%3A%20Morrow">
+                    <div class="work-image image-morrow"><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1300&q=85" alt="Carefully arranged books, plants, and objects in a calm interior" loading="lazy"><span class="image-index">02 / 03</span><span class="image-open" aria-hidden="true">↗</span></div>
+                    <div class="work-meta"><div><h2>Morrow</h2><p>Small rituals for slower mornings.</p></div><span>Identity · Web · 2024</span></div>
+                </a>
+                <a class="work-card work-third" href="mailto:hello@example.com?subject=Project%20inquiry%3A%20Open%20Form">
+                    <div class="work-image image-form"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1300&q=85" alt="Designer working on a digital interface at a laptop" loading="lazy"><span class="image-index">03 / 03</span><span class="image-open" aria-hidden="true">↗</span></div>
+                    <div class="work-meta"><div><h2>Open Form</h2><p>Making public services easier to use.</p></div><span>Product · 2024</span></div>
+                </a>
+            </div>
+            <a class="more-link" href="mailto:hello@example.com?subject=Portfolio%20request">More work available on request <span>↗</span></a>
+        </section>
+
+        <section class="about section-pad" id="about">
+            <div class="section-top"><p class="eyebrow"><span>03</span> A bit about me</p><p class="section-aside">Design-minded. Detail-oriented. Always learning.</p></div>
+            <div class="about-content">
+                <h2>I like hard problems,<br>kind people, and <em>good<br>typography.</em></h2>
+                <div class="about-aside"><p>I work across design and code to create digital products that feel clear, considered, and genuinely useful. From the first rough sketch to the final pixel, I care about how every detail works together.</p><p>Currently collaborating with good people everywhere.</p><a class="under-link" href="mailto:hello@example.com">A little more about me <span>↗</span></a></div>
+            </div>
+            <div class="skill-list"><span>WHAT I DO</span><p>Creative development <i>·</i> Interface design <i>·</i> Art direction <i>·</i> Prototyping</p></div>
+        </section>
+
+        <section class="contact" id="contact">
+            <p class="eyebrow"><span>04</span> Have something in mind?</p>
+            <div class="contact-row"><h2>Let’s make<br><em>it matter.</em></h2><a href="mailto:hello@example.com" class="contact-button">Start a conversation <span>↗</span></a></div>
+            <div class="contact-bottom"><span>Currently booking projects for 2026</span><a href="mailto:hello@example.com">hello@example.com</a></div>
+        </section>
+    </main>
+
+    <footer class="footer"><a class="brand" href="#home">S<span>.</span></a><p>Made with intention, and probably too much coffee.</p><span>© 2026 Sahil</span></footer>
 </body>
 </html>
